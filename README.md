@@ -4,13 +4,42 @@
 Авторы курсового проекта:
 1. Златоустова Карина, 312496
 2. Корнюшенков Роман, 111111
-3. Медведев Александр, 111111
+3. Медведев Александр, 286511
 
 ## Описание проводимого исследования
 
 ## Демонстрация работы
 
 ## Установка и развертывание
+
+### Создание venv (виртуального окружения Python):
+
+```shell
+python -m venv .venv
+```
+либо
+```shell
+python3 -m venv .venv
+```
+
+### Активация venv
+для Windows:
+```shell
+.venv\scripts\activate
+```
+для Linux:
+```shell
+source .venv/scripts/source
+```
+
+### Установка BlenderProc
+
+```shell
+git submodule update --init --recursive
+pip install -e submodules/BlenderProc
+```
+
+### Установка зависимостей
 
 ## Запуск и использование
 
