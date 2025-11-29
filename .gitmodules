@@ -1,0 +1,3 @@
+[submodule "submodules/BlenderProc"]
+	path = submodules/BlenderProc
+	url = https://github.com/oaleksander/BlenderProc.git
